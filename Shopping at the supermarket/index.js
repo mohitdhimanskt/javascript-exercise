@@ -1,5 +1,13 @@
-function addToShoppingChart(items){
-    var groceryItem = "wheat";
-    var shoppingChart = ["You bought"+ "List"+"OF"+"GROCERY"+"ITEMS!"];
-     var removed =  arr.splice(0,3);
+let grocery=['banana','mlik']
+
+function addToShoppingCart(newItem){
+  grocery.push(newItem)
+ if (grocery.length>3){
+    grocery.shift()
+  }
+    console.log(grocery)
+
 }
+addToShoppingCart('eggs')
+addToShoppingCart('cola')
+addToShoppingCart('chipy') 
