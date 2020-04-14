@@ -1,7 +1,5 @@
 function calculateDogAge(age){
-  var dogYear = 7*age;
-   console.log ("Your doggie is" + "dogYear" + "years old in dog years!");
+  const dogYear = 7*age;
+   return 'your doggie is ${human} year old in dog year!'
 }
-calculateDogAge(1);
-calculateDogAge(0.5);
-calculateDogAge(12);
+calculateDogAge(2);
